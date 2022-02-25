@@ -12,6 +12,7 @@ loaded_model = joblib.load(model_file_name)
 def lambda_handler(event, context):
     headers = {
         'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': '*',
     }
     
     
