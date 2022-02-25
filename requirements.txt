@@ -1,0 +1,5 @@
+Pillow
+torch
+torchvision
+numpy
+joblib
