@@ -4,6 +4,8 @@ Take a deep learning model and host it on AWS, paying only for the inference tim
 The model weights and the inference code are taken from [this repository](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning).
 I hope you find this repository useful for serverlessly hosting your own models. Also, see the accompanying [blog post](https://www.alexmeinke.de/2022/03/16/serverless-deploy-image-to-text.html).
 
+![architecture for serverless hosting of deep learning model](https://github.com/AlexMeinke/serverless-hosting-of-image-captioning/blob/master/ECR.png)
+
 I will assume that you have an AWS account and that you have the permissions to use [ECR](https://aws.amazon.com/ecr/), [AWS Lambda](https://aws.amazon.com/lambda/) and [API Gateway](https://aws.amazon.com/api-gateway/).
 
 ## Creating the Docker image
