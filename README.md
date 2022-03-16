@@ -26,7 +26,7 @@ docker push <b>YOUR-ECR-PREFIX</b>.dkr.ecr.<b>YOUR-AWS-REGION</b>.amazonaws.com/
 
 If you hit a snag during any of these steps, also refer to the [documentation](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html).
 
-## Creating Lambda Function
+## Creating the Lambda Function
 Using the docker container from [AWS Lambda](https://aws.amazon.com/lambda/) is easy. During creation, you simply select Container Image as the source. 
 After creating the function, don't forget to increase the timeout to at least 35 seconds as during cold starts the model takes a long time to load. 
 During warm-starts the latency is on the order of 4-5 seconds for this particular model.
