@@ -1,7 +1,7 @@
 # Serverless ML inference on AWS
 Take a deep learning model and host it on AWS, paying only for the inference time that you actually use. 
 The model weights and the inference code are taken from [this repository](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning).
-I hope you find this repository useful for serverlessly hosting your own models.
+I hope you find this repository useful for serverlessly hosting your own models. Also, see the accompanying [blog post](https://www.alexmeinke.de/2022/03/16/serverless-deploy-image-to-text.html).
 
 ## Creating the Docker image
 First you need to download the [model weights](https://alexm-personal-website-v2.s3.eu-central-1.amazonaws.com/blog/2022-02-01-serverless-deploy-image-to-text/model.pickle) 
